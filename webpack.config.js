@@ -18,10 +18,10 @@ module.exports = {
   },
   module: { rules },
   resolve: {
-    extensions: [".ts", ".tsx", "js"]
+      extensions: [".ts", ".tsx", ".js", ".jsx"],
   }, // to write each file when we import it without these extentions
   devServer: {
     contentBase: "./", // root
     port: 5000, // can any port
-  }
+  },
 };
